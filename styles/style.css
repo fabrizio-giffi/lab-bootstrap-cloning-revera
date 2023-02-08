@@ -1,0 +1,209 @@
+strong {
+    position: relative;
+    top: 4px;
+    font-size: 1.3em;
+    font-weight: 800;
+    font-family: sans-serif;
+  }
+  
+  h2 {
+    text-transform: uppercase;
+  }
+  
+  nav {
+    background-color: white;
+  }
+  
+  nav .btn {
+    border: none !important;
+    box-shadow: none;
+  }
+  
+  .nav-ctn {
+    height: 50px;
+  }
+  
+  nav a:hover,
+  nav button:hover,
+  .active {
+    color: #ed564b !important;
+  }
+  
+  .carousel img {
+    filter: grayscale(100%);
+  }
+  
+  #bkgr-div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("/starter-code/img/overlay.png");
+    background-repeat: repeat;
+    z-index: 9;
+  }
+  
+  .carousel-caption {
+    z-index: 99;
+    margin: auto;
+    bottom: 30%;
+  }
+  
+  
+  .carousel-item button,
+  .carousel-item button:hover {
+    border-radius: 0;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 3px 30px;
+    color: white;
+  }
+  
+  .carousel-item {
+      max-width: 100%;
+  }
+  
+  .car-ctrl {
+    position: absolute;
+    margin: auto;
+    background-color: #ed564b;
+    opacity: 1;
+    height: 100px;
+    width: 50px;
+  }
+  
+  .car-ctrl:hover {
+    background-color: white;
+  }
+  
+  .btn-slide {
+    width: 100%;
+    height: 100%;
+    line-height: 160%;
+    font-weight: 800;
+    font-size: 50px;
+  }
+  
+  .btn-slide:hover {
+    color: #ed564b;
+  }
+  
+  .icon {
+      width: 25px;
+  }
+  
+  #icon-text {
+      height: 400px;
+      background-color: #ed564b;
+      color: white;
+      border-top: 5px solid #F96B61;
+      border-bottom: 5px solid #F96B61;
+  }
+  
+  #icon-text h3 {
+      font-weight: 600;
+  }
+  
+  .circle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 70px;
+      height: 70px;
+      border: 5px solid white;
+      border-radius: 50%;
+      margin-bottom: 20px;
+  }
+  
+  .head3, .head5 {
+      text-transform: uppercase;
+  }
+  
+  .head3 {
+      font-weight: 600;
+      color: black;
+  }
+  
+  .head5 {
+      font-weight: 700;
+      font-size: 0.9em;
+      color: #ADADAD;
+  }
+  
+  #cards-1 a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  .card, .card img {
+      border: none;
+      border-radius: 0px;
+  }
+  
+  #cards-2 img+a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      margin-top: 5px;
+  }
+  
+  .date {
+      font-weight: 600;
+      font-size: 0.8em;
+      text-transform: uppercase;
+      color: #606060;
+  }
+  
+  #cards-2 a {
+      color: #ed564b;
+  }
+  
+  #cards-2 .card {
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+  }
+  
+  .boring-p {
+      color: #606060;
+  }
+  
+  #foot-info p, #foot-info li {
+      color: #d1d1d1;
+  }
+  
+  #foot-info {
+      border-top: 5px solid #ed564b;
+      height: 400px;
+      background-color: #3B3B3B;
+  }
+  
+  #foot-info h5 {
+      color: white;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+  }
+  
+  #foot-info li {
+      border-bottom: 1px solid #606060;
+      padding-bottom: 7px;
+  }
+  
+  #foot-info a {
+      color: #d1d1d1;
+      text-decoration: none;
+  }
+  
+  footer {
+      background-color: #292929;
+      color: white;
+      height: 100px;
+  }
+  
+  footer a {
+      color: white;
+      text-decoration: none;
+  }
+  
+  footer>div {
+      height: 100%;
+  }
